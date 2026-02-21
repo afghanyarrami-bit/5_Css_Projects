@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWatch Pro - Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header id="header">
+        <img id="header-img" src="techwatch-logo.svg" alt="TechWatch Pro Logo">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Experience the Future on Your Wrist</h1>
+        <p>The ultimate smartwatch that combines style, performance, and innovation</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Powered by the latest processor technology for seamless performance and instant response times.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💪</div>
+                <h3>Health Tracking</h3>
+                <p>Monitor your heart rate, sleep patterns, and fitness goals with advanced sensors and AI analytics.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔋</div>
+                <h3>Long Battery Life</h3>
+                <p>Up to 7 days of battery life on a single charge. Never miss a moment of your active lifestyle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="how-it-works">
+        <h2>See It in Action</h2>
+        <iframe 
+            id="video" 
+            src="https://www.youtube.com" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <div class="price">$299</div>
+                <ul>
+                    <li>✓ TechWatch Pro Device</li>
+                    <li>✓ Standard Band</li>
+                    <li>✓ 1 Year Warranty</li>
+                    <li>✓ Basic Health Features</li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <div class="price">$499</div>
+                <ul>
+                    <li>✓ TechWatch Pro Device</li>
+                    <li>✓ Premium Leather Band</li>
+                    <li>✓ 2 Year Warranty</li>
+                    <li>✓ Advanced Health Features</li>
+                    <li>✓ GPS Tracking</li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <div class="price">$699</div>
+                <ul>
+                    <li>✓ TechWatch Pro Device</li>
+                    <li>✓ 2 Premium Bands</li>
+                    <li>✓ Lifetime Warranty</li>
+                    <li>✓ All Features Unlocked</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ Exclusive Updates</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section with Form -->
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Get the latest news, updates, and exclusive offers delivered to your inbox</p>
+        <form id="form" action="" method="POST">
+            <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="Enter your email address" 
+                required
+            >
+            <input type="submit" id="submit" value="Subscribe Now">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TechWatch Pro. All rights reserved.</p>
+    </footer>
+</body>
+</html>

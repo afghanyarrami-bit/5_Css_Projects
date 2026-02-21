@@ -1,0 +1,146 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+     min-height: 100vh;
+     padding: 40px 20px;
+ }
+
+ h1 {
+     text-align: center;
+     color: white;
+     margin-bottom: 40px;
+     font-size: 2.5em;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ table {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     background: white;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+     border-collapse: collapse;
+ }
+
+ thead {
+     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+     color: white;
+ }
+
+ th {
+     padding: 20px;
+     text-align: left;
+     font-size: 1.1em;
+     font-weight: 600;
+ }
+
+ td {
+     padding: 15px 20px;
+     border-bottom: 1px solid #e0e0e0;
+ }
+
+ tbody tr:last-child td {
+     border-bottom: none;
+ }
+
+ /* Attribute selectors for row backgrounds */
+ tr[class="read"] {
+     background-image: linear-gradient(to right, #e8f5e9, #f1f8e9);
+ }
+
+ tr[class="to-read"] {
+     background-image: linear-gradient(to right, #fff3e0, #ffe0b2);
+ }
+
+ tr[class="in-progress"] {
+     background-image: linear-gradient(to right, #e3f2fd, #bbdefb);
+ }
+
+ /* All span elements display inline-block */
+ span {
+     display: inline-block;
+ }
+
+ /* Status badges for to-read rows */
+ tr[class="to-read"] span[class="status"] {
+     border: 2px solid #ff9800;
+     background-image: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+ }
+
+ /* Status badges for read rows */
+ tr[class="read"] span[class="status"] {
+     border: 2px solid #4caf50;
+     background-image: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+ }
+
+ /* Status badges for in-progress rows */
+ tr[class="in-progress"] span[class="status"] {
+     border: 2px solid #2196f3;
+     background-image: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+ }
+
+ /* Status and rate spans styling */
+ span[class="status"],
+ span[class^="rate"] {
+     height: 30px;
+     width: auto;
+     padding: 5px 15px;
+ }
+
+ span[class="status"] {
+     border-radius: 20px;
+     font-weight: 600;
+     font-size: 0.9em;
+     text-align: center;
+     min-width: 100px;
+ }
+
+ /* Star rating containers */
+ span[class^="rate"] {
+     padding: 5px;
+     display: inline-flex;
+     gap: 5px;
+     align-items: center;
+ }
+
+ /* Individual star elements */
+ span[class^="rate"]>span {
+     border: 2px solid #ddd;
+     border-radius: 50%;
+     margin: 0 2px;
+     height: 20px;
+     width: 20px;
+     background-color: #f5f5f5;
+ }
+
+ /* One star rating - first star filled */
+ span[class*="one"]:first-child {
+     background-image: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+ }
+
+ /* Two star rating - first two stars filled */
+ span[class*="two"]:nth-child(-n+2) {
+     background-image: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+ }
+
+ /* Three star rating - all three stars filled */
+ span[class*="three"] span {
+     background-image: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+ }
+
+ tbody tr {
+     transition: transform 0.2s ease;
+ }
+
+ tbody tr:hover {
+     transform: scale(1.01);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
