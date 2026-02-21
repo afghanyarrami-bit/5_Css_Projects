@@ -1,5 +1,14 @@
-# 📸 Photography Exhibit
+---
+## 📸 Photography Exhibit
+#modern Style
 
+<img width="2791" height="1495" alt="Image" src="https://github.com/user-attachments/assets/5ab2c9f9-4b23-4f0c-9526-529e80ae0e19" />
+
+#Old Style
+
+<img width="2826" height="1111" alt="Image" src="https://github.com/user-attachments/assets/b17ddd67-7c58-42e4-b7e2-9c925c76a2e3" />
+
+---
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
