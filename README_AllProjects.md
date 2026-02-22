@@ -8,7 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-**A collection of 5 frontend practice projects built with HTML, CSS, Tailwind CSS, and JavaScript**
+**A collection of 5 frontend practice projects built with HTML, CSS, Tailwind CSS **
 
 [📚 Book Inventory](#-1-book-inventory-app) • [📸 Photography Exhibit](#-2-photography-exhibit) • [♠ Playing Cards](#-3-playing-cards) • [⌚ TechWatch Pro](#-4-techwatch-pro---product-landing-page) • [🛒 Shopping Cart](#-5-shopping-cart)
 
