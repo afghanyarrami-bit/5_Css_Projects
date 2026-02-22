@@ -40,12 +40,6 @@ This repository contains **5 frontend mini projects** built by **Ramin Afghanyar
 
 A styled book tracking table that displays 8 books with their reading status and star ratings.
 
-### 📸 Screenshot
-> Add your screenshot here
-```markdown
-![Book Inventory](./book-inventory/screenshot.png)
-```
-
 ### ✨ Features
 - 📋 Table with Title, Author, Category, Status, Rating columns
 - 🟢 Color-coded rows — Green = Read, Orange = To Read, Blue = In Progress
@@ -70,16 +64,16 @@ A styled book tracking table that displays 8 books with their reading status and
 
 ---
 
-## 📸 2. Photography Exhibit
-
-A clean 3-card photo gallery using a responsive CSS grid layout.
-
 ### 📸 Screenshot
-> Add your screenshot here
-```markdown
-![Photography Exhibit](./photography-exhibit/screenshot.png)
-```
+#Modern Style
+<img width="2791" height="1495" alt="Image" src="https://github.com/user-attachments/assets/5ab2c9f9-4b23-4f0c-9526-529e80ae0e19" />
 
+---
+#Old Style
+
+<img width="2826" height="1111" alt="Image" src="https://github.com/user-attachments/assets/b17ddd67-7c58-42e4-b7e2-9c925c76a2e3" /> 
+
+---
 ### ✨ Features
 - 🖼 3 photo cards — Colosseum, Alps, Sea
 - 📐 3-column CSS grid layout
@@ -105,10 +99,10 @@ A clean 3-card photo gallery using a responsive CSS grid layout.
 A visual display of 6 classic playing cards with hover animations on a deep blue background.
 
 ### 📸 Screenshot
-> Add your screenshot here
-```markdown
-![Playing Cards](./playing-cards/screenshot.png)
-```
+---
+<img width="2815" height="1406" alt="Image" src="https://github.com/user-attachments/assets/cd5e941c-35b5-4f46-a9b2-e730792628d1" />      
+
+---
 
 ### ✨ Features
 - 🃏 6 playing cards — Ace, King, Queen, Jack, Ten, Seven
@@ -137,11 +131,17 @@ A visual display of 6 classic playing cards with hover animations on a deep blue
 A complete, fully responsive product landing page for a fictional smartwatch brand.
 
 ### 📸 Screenshot
-> Add your screenshot here
-```markdown
-![TechWatch Pro](./techwatch-pro/screenshot.png)
-```
+---
+<img width="2838" height="1515" alt="Image" src="https://github.com/user-attachments/assets/b56125e2-18ed-48a2-b930-b81744e03e90" />
 
+
+<img width="2830" height="1519" alt="Image" src="https://github.com/user-attachments/assets/30cadaef-db36-4ae8-9ee9-1213fca446c6" />
+
+
+<img width="2831" height="1502" alt="Image" src="https://github.com/user-attachments/assets/70a10c82-c477-4eda-b445-fbd1b48a9742" />
+
+
+---
 ### ✨ Features
 - 🔝 Fixed navigation header with logo
 - 🦸 Hero section with headline and subtitle
