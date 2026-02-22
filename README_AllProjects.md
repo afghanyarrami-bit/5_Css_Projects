@@ -61,6 +61,8 @@ A styled book tracking table that displays 8 books with their reading status and
 ### 🛠 Tech
 `HTML5` `CSS3` — CSS attribute selectors, gradients, transitions
 
+## 2. photography-exhibit
+
 ---
 
 ### 📸 Screenshot
