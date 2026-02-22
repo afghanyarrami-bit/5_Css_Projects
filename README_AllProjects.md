@@ -174,8 +174,6 @@ A static shopping cart UI with product cards and an order summary panel.
 <div align="center">
  <img width="2798" height="1418" alt="Image" src="https://github.com/user-attachments/assets/77cf31dd-d42a-4871-bbc4-e243c4b7273a" />
 </div>
-
-
 ---
 
 ### ✨ Features
