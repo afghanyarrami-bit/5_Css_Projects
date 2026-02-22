@@ -19,17 +19,15 @@
 > This is a **Tailwind CSS practice project** to learn flex layout, card components, responsive design, and building a real e-commerce UI without writing custom CSS.
 
 ---
-
-## 📸 Screenshots
-
+---
 ### 🖥 Desktop View
 
 <div align="center">
-  <img width="800" alt="Shopping Cart Screenshot" src="https://github.com/user-attachments/assets/Screenshot_2026-02-22_010049.png" />
+ <img width="2798" height="1418" alt="Image" src="https://github.com/user-attachments/assets/77cf31dd-d42a-4871-bbc4-e243c4b7273a" />
 </div>
 
-> Replace the image src above with your real GitHub uploaded image link.
 
+---
 **How to add your screenshot to GitHub:**
 1. Open your repo on GitHub
 2. Go to any Issue → drag and drop your screenshot
